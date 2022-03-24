@@ -1,7 +1,8 @@
 # FRC Ranking with Monkeys
 
 Ranking FRC teams is a difficult task because teams play in alliances that are three on three.
-Who should get credit for the win? How much credit? The method used here
+Who should get credit for the win? How much credit? Based on an idea that was used once for [football
+teams](http://mathtourist.blogspot.com/2007/11/random-walks-to-football-rankings.html). The method used here
 is to create a graph with nodes or each team and edges that represent that teams opponents.
 We start by associating some large numbers of monkeys to the all the nodes randomly.
 The monkeys monkeys are polled thousands of times, and some percentage of the time they chose to pick a new 
